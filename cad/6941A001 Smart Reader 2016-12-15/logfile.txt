@@ -1,0 +1,43 @@
+DEBUG      root            <module>   1032:  - locale: en_US
+DEBUG      PostPro.PostProcessorConfig load_config 198 :  - read existing varspace 'C:/RoboDK/Other/DXF2Gcode\postpro_config\postpro_config.cfg'
+DEBUG      root            <module>   1071:  - Started with following options:
+ArgumentParser(prog='dxf2gcode.exe', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)
+INFO       root            load       751 :  - Loading file: C:/Users/Fred/Google Drive/Carolon Butler Sensor/6941A001 Smart Reader 2016-12-15/6941 AB End Cap.DXF
+DEBUG      DxfImport.Import Get_Line_Pairs 196 :  - Did read 1794 of linepairs from DXF
+INFO       DxfImport.Import __init__   79  :  - Reading DXF Structure
+INFO       DxfImport.Import Read_Blocks 299 :  - Reading Block *Model_Space; Nr: 0
+DEBUG      DxfImport.Import Read_Blocks 308 :  - Found block pos Value 10 at: 855
+INFO       DxfImport.Import Read_Blocks 299 :  - Reading Block *Paper_Space; Nr: 1
+DEBUG      DxfImport.Import Read_Blocks 308 :  - Found block pos Value 10 at: 875
+INFO       DxfImport.Import Read_Blocks 299 :  - Reading Block *Paper_Space0; Nr: 2
+DEBUG      DxfImport.Import Read_Blocks 308 :  - Found block pos Value 10 at: 895
+INFO       DxfImport.Import __init__   94  :  - Creating Contours of Block Nr: 0
+INFO       DxfImport.Import __init__   94  :  - Creating Contours of Block Nr: 1
+INFO       DxfImport.Import __init__   94  :  - Creating Contours of Block Nr: 2
+INFO       DxfImport.Import __init__   97  :  - Creating Contours of Entities
+INFO       root            load       756 :  - Loaded layers: 1
+INFO       root            load       757 :  - Loaded blocks: 3
+INFO       root            load       761 :  - Block 0 includes 0 Geometries, reduced to 0 Contours, used layers: []
+INFO       root            load       761 :  - Block 1 includes 0 Geometries, reduced to 0 Contours, used layers: []
+INFO       root            load       761 :  - Block 2 includes 0 Geometries, reduced to 0 Contours, used layers: []
+INFO       root            load       765 :  - Loaded 8 entity geometries; reduced to 1 contours; used layers: [0]; number of inserts 0
+INFO       root            load       772 :  - Drawing units: millimeters
+DEBUG      Core.Shape      setNearestStPoint 180 :  - Clicked Point: X ->  0.000  Y ->  0.000
+DEBUG      Core.Shape      setNearestStPoint 182 :  - Old Start Point: X -> -90.000  Y -> 26.057
+DEBUG      Core.Shape      setNearestStPoint 191 :  - New Start Point: X -> 59.036  Y -> 20.038
+DEBUG      Core.Shape      AnalyseAndOptimize 171 :  - Analysing the shape for CW direction Nr: 0
+DEBUG      Core.Shape      AnalyseAndOptimize 175 :  - Had to reverse the shape to be CW
+DEBUG      DxfImport.myCanvasClass autoscale  241 :  - Autoscaling to extend: PyQt5.QtCore.QRectF(-90.00000000000006, -43.05340532586111, 181.65000000000006, 128.0735018163619)
+DEBUG      root            exportShapes 292 :  - Export the enabled shapes
+DEBUG      root            exportShapes 298 :  - Sorted layers:
+DEBUG      root            exportShapes 300 :  - LayerContents[0] = 
+LayerContent
+nr:     0
+name:   0
+shapes: [<gui.canvas2d.ShapeGUI object at 0x04C9E4E0>]
+DEBUG      PostPro.PostProcessorConfig load_config 198 :  - read existing varspace 'C:/RoboDK/Other/DXF2Gcode\postpro_config\postpro_config.cfg'
+DEBUG      PostPro.Breaks  __init__   59  :  - Found 0 break layers
+DEBUG      PostPro.PostProcessor exportShapes 169 :  - Beginning export of Layer Nr. 0, Name 0
+DEBUG      PostPro.PostProcessor exportShapes 171 :  - Nr. of Shapes 1; Nr. of Shapes in Route 1
+DEBUG      PostPro.PostProcessor exportShapes 184 :  - Beginning export of Shape Nr: 0
+INFO       PostPro.PostProcessor exportShapes 213 :  - Export to FILE was successful
