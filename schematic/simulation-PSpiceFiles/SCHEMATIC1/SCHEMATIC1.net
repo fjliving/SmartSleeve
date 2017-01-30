@@ -1,0 +1,27 @@
+* source SIMULATION
+R_R29         0 N50764  1.91k TC=0,0 
+R_R3         N50764 VIN- R_R3 4.02k TC=0,0 
+.model        R_R3 RES R=1 DEV=0.1%
+V_V1         VCC 0 3.3Vdc
+C_C4         VCC 0  10uF  
+C_C2         0 VCC  0.1uF  TC=0,0 
+C_C5         0 VCC  0.1uF  TC=0,0 
+R_R25         VIN- N50572 R_R25 4.02k TC=0,0 
+.model        R_R25 RES R=1 DEV=0.1%
+R_R4         N50764 VIN+ R_R4 100k TC=0,0 
+.model        R_R4 RES R=1 DEV=0.1%
+R_R28         N50572 VCC  1.91k TC=0,0 
+R_R26         VIN+ N50572 R_R26 4.02k TC=0,0 
+.model        R_R26 RES R=1 DEV=0.1%
+R_R31         0 N52095  127k TC=0,0 
+X_U10         N52009 VIN- VIN+ 0 VCC N52095 N52427 VCC N52063 INA327
+R_R30         N52063 N52009  100k TC=0,0 
+C_C9         0 N52095  1nF  TC=0,0 
+C_C10         0 VCC  0.1uF  TC=0,0 
+R_R32         N52427 VOUT  100 TC=0,0 
+C_C11         0 VOUT  1uF  TC=0,0 
+R_R14         0 ADC_BATT R_R14 7.15k TC=0,0 
+.model        R_R14 RES R=1 DEV=0.1%
+R_R13         ADC_BATT N52814 R_R13 10k TC=0,0 
+.model        R_R13 RES R=1 DEV=0.1%
+V_V2         N52814 0 6.Vdc
