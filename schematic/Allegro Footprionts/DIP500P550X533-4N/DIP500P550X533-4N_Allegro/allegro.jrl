@@ -1,0 +1,134 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:00:29 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=17264 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\DIP500P550X533-4N\DIP500P550X533-4N_Allegro\DIP500P550X533-4N.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/Fred/Desktop/Livingston Models/DIP500P550X533-4N/DIP500P550X533-4N_Allegro/DIP500P550X533-4N.dra
+\i (00:00:03) trapsize 263
+\i (00:00:04) trapsize 271
+\i (00:00:04) trapsize 271
+\i (00:00:05) generaledit 
+\i (00:01:17) prepopup 117.83 97.16
+\i (00:01:18) pop dyn_option_select '@:@Show element' 
+\i (00:01:18) show element 
+\i (00:01:19) generaledit 
+\i (00:01:45) setwindow text
+\i (00:01:45) close 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) prepopup 119.45 -76.59
+\i (00:01:49) pop dyn_option_select '@:@Show element' 
+\i (00:01:49) show element 
+\i (00:01:50) generaledit 
+\i (00:01:52) setwindow text
+\i (00:01:52) close 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) prmed 
+\i (00:02:02) setwindow form.prmedit
+\i (00:02:02) FORM prmedit design  
+\i (00:02:05) FORM prmedit cancel  
+\i (00:02:05) setwindow pcb
+\i (00:02:05) generaledit 
+\i (00:02:08) pick grid 98.34 117.73
+\t (00:02:08) last pick:  98.30 117.70
+\i (00:02:08) prepopup 98.34 117.73
+\i (00:02:13) padeditdb 
+\i (00:02:17) setwindow form.mini
+\i (00:02:17) FORM mini padlist C147H87T127_157 
+\i (00:02:17) FORMDBLCLK mini padlist C147H87T127_157 
+\i (00:05:13) setwindow pcb
+\i (00:05:13) prepopup 125.95 120.97
+\i (00:05:15) done 
+\i (00:05:15) generaledit 
+\i (00:05:16) prepopup 124.32 115.02
+\i (00:05:18) pop dyn_option_select '@:@Show element' 
+\i (00:05:18) show element 
+\i (00:05:18) generaledit 
+\i (00:05:26) setwindow text
+\i (00:05:26) close 
+\i (00:05:28) setwindow pcb
+\i (00:05:28) pick grid 131.36 -83.63
+\t (00:05:28) last pick:  131.40 -83.60
+\i (00:05:28) prepopup 131.36 -83.63
+\i (00:05:32) pop dyn_option_select '@:@Show element' 
+\i (00:05:32) show element 
+\i (00:05:32) generaledit 
+\i (00:05:43) setwindow text
+\i (00:05:43) close 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) pick grid -7.20 106.36
+\t (00:05:47) last pick:  -7.20 106.40
+\i (00:05:48) delete 
+\i (00:05:48) generaledit 
+\i (00:05:49) pick grid 25.81 -88.50
+\t (00:05:49) last pick:  25.80 -88.50
+\i (00:05:50) delete 
+\i (00:05:50) generaledit 
+\i (00:05:58) pick grid 125.41 106.90
+\t (00:05:58) last pick:  125.40 106.90
+\i (00:06:00) delete 
+\i (00:06:00) generaledit 
+\i (00:06:01) pick grid 119.99 -75.51
+\t (00:06:01) last pick:  120.00 -75.50
+\i (00:06:03) delete 
+\i (00:06:03) generaledit 
+\i (00:06:04) add pin 
+\i (00:06:07) setwindow form.mini
+\i (00:06:07) FORM mini pintype_mechanical YES 
+\i (00:06:08) FORM mini pad_browse  
+\i (00:06:10) fillin "menu_cancel"
+\i (00:06:35) FORM mini pad_name C147H87T127_157 
+\t (00:06:35) Using 'C147H87T127_157.pad'.
+\i (00:06:50) setwindow pcb
+\i (00:06:50) pick 108.27 98.43 
+\t (00:06:50) last pick:  108.27 98.43
+\t (00:06:50) Using 'C147H87T127_157.pad'.
+\i (00:06:59) pick 108.27 -98.43 
+\t (00:06:59) last pick:  108.27 -98.43
+\t (00:06:59) Using 'C147H87T127_157.pad'.
+\i (00:07:02) prepopup 189.28 9.47
+\i (00:07:03) done 
+\t (00:07:03) Exiting from Add Pin.
+\i (00:07:03) generaledit 
+\i (00:07:08) save 
+\i (00:07:09) fillin yes 
+\t (00:07:10) Symbol 'dip500p550x533-4n.psm' created.
+\i (00:07:10) generaledit 
+\i (00:07:16) add connect 
+\t (00:07:16) Pick first element.
+\i (00:07:24) setwindow form.mini
+\i (00:07:24) FORM mini acon_line_width 25 
+\i (00:07:25) setwindow pcb
+\i (00:07:25) pick grid -105.18 100.41
+\t (00:07:25) last pick:  -105.20 100.40
+\t (00:07:25) last pick:  -108.27 98.43
+\t (00:07:25) last pick:  -108.27 98.43
+\i (00:07:25) mouse_pos 77.23 93.37
+\i (00:07:26) pick grid 104.30 93.37
+\t (00:07:26) last pick:  104.30 93.40
+\t (00:07:26) No DRC errors detected.
+\t (00:07:26) Pick first element.
+\i (00:07:27) pick grid -100.30 -99.87
+\t (00:07:27) last pick:  -100.30 -99.90
+\t (00:07:27) Pick first element.
+\t (00:07:27) last pick:  -108.27 -98.43
+\t (00:07:27) last pick:  -108.27 -98.43
+\i (00:07:28) mouse_pos 78.32 -106.36
+\i (00:07:28) pick grid 107.00 -106.90
+\t (00:07:28) last pick:  107.00 -106.90
+\t (00:07:28) No DRC errors detected.
+\t (00:07:28) Pick first element.
+\i (00:07:31) pick grid 216.88 89.04
+\t (00:07:31) last pick:  216.90 89.00
+\t (00:07:31) Pick first element.
+\t (00:07:31) last pick:  216.90 89.00
+\i (00:07:31) prepopup 216.88 89.04
+\i (00:07:32) done 
+\i (00:07:32) generaledit 
+\i (00:07:33) save 
+\i (00:07:34) fillin yes 
+\t (00:07:35) Symbol 'dip500p550x533-4n.psm' created.
+\i (00:07:35) generaledit 
+\i (00:07:39) exit 
+\t (00:07:39)     Journal end - Mon Jan 30 15:08:07 2017

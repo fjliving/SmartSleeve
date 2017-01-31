@@ -1,0 +1,19 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 27 11:21:20 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=17672 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe C:\Users\Fred\Desktop\Livingston Models\DIP254P254X533-6N\DIP254P254X533-6N_Allegro\c28h28.pad
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\t (00:13:05)     Journal end - Fri Jan 27 11:34:26 2017
+ff.
+\d (00:00:05) QtSignal MainWindow Units activated Mils
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:14) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:15) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:18) QtFillin Yes
+\t (00:00:18)     Journal end - Fri Jan 27 11:34:21 2017

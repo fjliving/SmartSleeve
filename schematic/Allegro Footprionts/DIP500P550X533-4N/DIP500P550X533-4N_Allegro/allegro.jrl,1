@@ -1,0 +1,99 @@
+\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Jan 27 14:16:49 2017
+\t (00:00:03)         Host=FJLIVING User=Fred Pid=4684 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\DIP500P550X533-4N\DIP500P550X533-4N_Allegro\DIP500P550X533-4N.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/Fred/Desktop/Livingston Models/DIP500P550X533-4N/DIP500P550X533-4N_Allegro/DIP500P550X533-4N.dra
+\i (00:00:05) trapsize 263
+\i (00:00:05) trapsize 271
+\i (00:00:06) trapsize 271
+\i (00:00:06) generaledit 
+\i (00:07:44) pick grid -93.27 96.62
+\t (00:07:44) last pick:  -100.00 100.00
+\i (00:07:46) pick grid 103.21 94.99
+\t (00:07:46) last pick:  100.00 100.00
+\i (00:07:47) prepopup 103.21 94.99
+\i (00:07:49) pick grid 97.80 102.03
+\t (00:07:49) last pick:  100.00 100.00
+\i (00:07:50) prepopup 97.80 102.03
+\i (00:07:52) pop dyn_option_select '@:@Show element' 
+\i (00:07:52) show element 
+\i (00:07:54) generaledit 
+\i (00:07:58) setwindow text
+\i (00:07:58) close 
+\i (00:08:03) setwindow pcb
+\i (00:08:03) add connect 
+\t (00:08:04) Pick first element.
+\t (00:08:04) last pick:  108.27 98.43
+\i (00:08:05) pick grid -111.13 104.19
+\t (00:08:05) last pick:  -111.10 104.20
+\t (00:08:05) No DRC errors detected.
+\t (00:08:05) Pick first element.
+\i (00:08:06) generaledit 
+\i (00:08:07) prepopup 82.65 96.62
+\i (00:08:11) pick grid 265.60 84.71
+\t (00:08:11) last pick:  265.60 84.70
+\i (00:08:12) pick grid -96.51 -104.20
+\t (00:08:12) last pick:  -96.50 -104.20
+\i (00:08:14) pick grid -104.63 -96.62
+\t (00:08:14) last pick:  -104.60 -96.60
+\i (00:08:16) add connect 
+\t (00:08:16) Pick first element.
+\t (00:08:17) last pick:  -108.27 -98.43
+\i (00:08:17) pick grid -117.62 -94.45
+\t (00:08:17) last pick:  -117.60 -94.40
+\t (00:08:17) No DRC errors detected.
+\t (00:08:17) last pick:  -113.57 -98.43
+\i (00:08:17) mouse_pos 89.14 -100.95
+\i (00:08:17) mouse_pos 72.90 -94.45
+\i (00:08:18) mouse_pos 96.72 -98.24
+\i (00:08:22) pick grid 116.75 -98.78
+\t (00:08:22) last pick:  116.80 -98.80
+\t (00:08:22) No DRC errors detected.
+\t (00:08:22) Pick first element.
+\i (00:08:23) generaledit 
+\i (00:08:29) pick grid -66.20 99.86
+\t (00:08:29) last pick:  -66.20 99.90
+\i (00:08:29) prepopup -66.20 99.86
+\i (00:08:53) change 
+\i (00:09:02) setwindow form.mini
+\i (00:09:02) FORM mini apply_width YES 
+\i (00:09:05) FORM mini line_width 20.00 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) pick grid 0.37 95.53
+\t (00:09:06) last pick:  0.40 95.50
+\e (00:09:06) ERROR(SPMHGE-548): Filled rectangle width cannot be changed.
+\i (00:09:07) pick grid 1.46 99.32
+\t (00:09:07) last pick:  1.50 99.30
+\t (00:09:07) Changed 1 items out of 1 items found.
+\i (00:09:11) setwindow form.mini
+\i (00:09:11) FORM mini line_width 30.00 
+\i (00:09:12) setwindow pcb
+\i (00:09:12) pick grid 79.40 96.08
+\t (00:09:12) last pick:  79.40 96.10
+\t (00:09:12) Changed 1 items out of 1 items found.
+\i (00:09:14) pick grid 51.25 -97.70
+\t (00:09:14) last pick:  51.30 -97.70
+\t (00:09:14) Changed 1 items out of 1 items found.
+\i (00:09:17) save 
+\i (00:09:19) fillin yes 
+\t (00:09:19) Symbol 'dip500p550x533-4n.psm' created.
+\i (00:09:19) generaledit 
+\i (00:09:22) Esc 
+\i (00:09:22) prepopup 120.54 78.75
+\i (00:09:25) pick grid 279.13 68.47
+\t (00:09:25) last pick:  279.10 68.50
+\i (00:09:33) show element 
+\i (00:09:34) pick grid 129.20 112.85
+\t (00:09:34) last pick:  129.20 112.90
+\i (00:09:43) setwindow text
+\i (00:09:43) close 
+\i (00:23:10) setwindow pcb
+\i (00:23:10) new 
+\e (00:23:10) Do you want to save the changes you made to C:/Users/Fred/Desktop/Livingston Models/DIP500P550X533-4N/DIP500P550X533-4N_Allegro/DIP500P550X533-4N.dra?
+\i (00:23:14) fillin yes 
+\t (00:23:14) Symbol 'dip500p550x533-4n.psm' created.
+\i (00:23:43) newdrawfillin "HOLE125.dra" "Package Symbol (Wizard)"
+\t (00:23:43)     Journal end - Fri Jan 27 14:40:29 2017

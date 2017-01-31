@@ -1,0 +1,2 @@
+cd "C:/Users/Fred/Desktop/Livingston Models/DIP500P550X533-4N/DIP500P550X533-4N_Allegro"
+skill (LB_createFootprint "C:/Users/Fred/Desktop/Livingston Models/DIP500P550X533-4N/DIP500P550X533-4N_Allegro/DIP500P550X533-4N.xml")

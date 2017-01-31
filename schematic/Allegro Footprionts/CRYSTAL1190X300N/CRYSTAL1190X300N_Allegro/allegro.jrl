@@ -1,0 +1,14 @@
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jan 30 14:59:25 2017
+\t (00:00:02)         Host=FJLIVING User=Fred Pid=12872 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\CRYSTAL1190X300N\CRYSTAL1190X300N_Allegro\CRYSTAL1190X300N.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/Fred/Desktop/Livingston Models/CRYSTAL1190X300N/CRYSTAL1190X300N_Allegro/CRYSTAL1190X300N.dra
+\i (00:00:06) trapsize 596
+\i (00:00:06) trapsize 613
+\i (00:00:07) trapsize 761
+\i (00:00:08) generaledit 
+\i (00:00:10) exit 
+\t (00:00:10)     Journal end - Mon Jan 30 14:59:32 2017

@@ -1,0 +1,82 @@
+<Footprint name="DIOC2512X140N" >
+ <Units type="millimeters" precision="4" />
+ <Extents minX="-9.8250" minY="-4.2850" width="18.8000" height="8.9600" />
+ <Padstack name="r100_135" type="single" > 
+  <Layers>
+    <Layer name="TOP" >
+     <Pad shape="rectangle" width="1.0000" height="1.3500" />
+    </Layer>
+    <Layer name="SOLDERMASK_TOP" >
+     <Pad shape="rectangle" width="1.0000" height="1.3500" />
+    </Layer>
+    <Layer name="PASTEMASK_TOP" >
+     <Pad shape="rectangle" width="1.0000" height="1.3500" />
+    </Layer>
+  </Layers>
+ </Padstack>
+ <Pins>
+  <Pin number="C" padName="r100_135" originX="-1.1750" originY="0.0000" rotation="0" isMechanical="no" textBlk="1" />
+  <Pin number="A" padName="r100_135" originX="1.1750" originY="0.0000" rotation="180" isMechanical="no" textBlk="1" />
+ </Pins>
+ <Vias>
+ </Vias>
+ <Layers>
+  <Layer name="PACKAGE GEOMETRY/PLACE_BOUND_TOP" packageHeight="0.9000" >
+   <Path lineWidth="0.0500" type="shape" >
+    <Point x="-1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="0.9250" />
+    <Point x="1.9250" y="0.9250" />
+    <Point x="1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="-0.9250" />
+   </Path>
+  </Layer>
+  <Layer name="PACKAGE GEOMETRY/DFA_BOUND_TOP" packageHeight="0.9000" >
+   <Path lineWidth="0.0000" type="shape" >
+    <Point x="-1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="0.9250" />
+    <Point x="1.9250" y="0.9250" />
+    <Point x="1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="-0.9250" />
+   </Path>
+  </Layer>
+  <Layer name="MANUFACTURING/NO_PROBE_TOP" packageHeight="0.9000" >
+   <Path lineWidth="0.0000" type="shape" >
+    <Point x="-1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="0.9250" />
+    <Point x="1.9250" y="0.9250" />
+    <Point x="1.9250" y="-0.9250" />
+    <Point x="-1.9250" y="-0.9250" />
+   </Path>
+  </Layer>
+  <Layer name="PACKAGE GEOMETRY/ASSEMBLY_TOP" packageHeight="0.9000" >
+   <Polygon>
+    <Point x="-1.2500" y="-0.6000" />
+    <Point x="-1.2500" y="0.6000" />
+    <Point x="-0.7500" y="0.6000" />
+    <Point x="-0.7500" y="-0.6000" />
+    <Point x="-1.2500" y="-0.6000" />
+   </Polygon>
+   <Path lineWidth="0.1000" type="line" >
+    <Point x="1.2500" y="0.6000" />
+    <Point x="1.2500" y="-0.6000" />
+    <Point x="-1.2500" y="-0.6000" />
+    <Point x="-1.2500" y="0.6000" />
+    <Point x="1.2500" y="0.6000" />
+   </Path>
+   <Label layer="REF DES/ASSEMBLY_TOP" textBlock="3" angle="0" x="0.0000" y="-0.2250" text="Ref" />
+  </Layer>
+  <Layer name="PACKAGE GEOMETRY/SILKSCREEN_TOP" packageHeight="0.9000" >
+   <Path lineWidth="0.2000" type="line" >
+    <Point x="-0.3250" y="0.6000" />
+    <Point x="0.3250" y="0.6000" />
+   </Path>
+   <Path lineWidth="0.2000" type="line" >
+    <Point x="-0.3250" y="-0.6000" />
+    <Point x="0.3250" y="-0.6000" />
+   </Path>
+   <Label layer="REF DES/SILKSCREEN_TOP" textBlock="3" angle="0" x="0.0000" y="0.8750" text="Ref" />
+   <Label layer="DEVICE TYPE/SILKSCREEN_TOP" textBlock="3" angle="0" x="0.0000" y="0.8750" text="Dev" />
+   <Circle type="shape" lineWidth="0.2000" originX="-2.5750" originY="0.0000" radius="0.2000" />
+  </Layer>
+ </Layers>
+</Footprint>

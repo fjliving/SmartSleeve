@@ -1,0 +1,34 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 27 15:44:39 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=7004 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Fred -file ./#Taaaaab10096.tmp -pname PAD60CIR38D -data C:/Users/Fred/AppData/Local/Temp/#Taaaaad10096.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal MainWindow Units CurrentIndexChanged Mils
+\d (00:00:04) QtFillin Yes
+\w (00:00:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:04) QtSignal MainWindow Units activated Mils
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:11) QtSignal GuidedDrillTab holeXSize editingFinished 42.00
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:14) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:14) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 40.00" +
+\d (00:00:14) QtSignal 1 2
+\d (00:00:18) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 60.00
+\d (00:00:18) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:23) QtSignal GuidedDrillSymbol FigureWidth editingFinished 42.00
+\d (00:00:25) QtSignal GuidedDrillSymbol FigureHeight editingFinished 42.00
+\d (00:00:26) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:26) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:28) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:28) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:33) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:34) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:34) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:36) QtSignal MainWindow Save triggered
+\t (00:00:38)     Journal end - Fri Jan 27 15:45:17 2017

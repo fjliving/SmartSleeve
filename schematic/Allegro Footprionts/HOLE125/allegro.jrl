@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:08:26 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=16032 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\HOLE125\HOLE125.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/Fred/Desktop/Livingston Models/HOLE125/HOLE125.dra
+\i (00:00:03) trapsize 1
+\i (00:00:04) trapsize 1
+\i (00:00:05) generaledit 
+\i (00:00:06) prepopup 40 12
+\i (00:00:08) pop dyn_option_select '@:@Show element' 
+\i (00:00:08) show element 
+\i (00:00:10) generaledit 
+\i (00:00:16) setwindow text
+\i (00:00:16) close 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) exit 
+\t (00:00:23)     Journal end - Mon Jan 30 15:08:50 2017

@@ -1,0 +1,82 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:10:11 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=16064 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\ST7565\ST7565.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Fred/Desktop/Livingston Models/ST7565/ST7565.dra
+\t (00:00:03) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:03) trapsize 2638
+\i (00:00:04) trapsize 2713
+\t (00:00:04) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:04) trapsize 2713
+\i (00:00:05) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 84.3879 45.9483
+\t (00:00:06) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:06) trapsize 5427
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 91.2662 26.7945
+\i (00:00:06) trapsize 5427
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 88.1186 25.7091
+\i (00:00:06) trapsize 5427
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 47.9595 13.1187
+\i (00:00:06) trapsize 5427
+\i (00:00:09) move 
+\t (00:00:09) Select element(s) to move.
+\i (00:00:14) pick grid -0.1230 47.7424
+\t (00:00:14) last pick:  -0.1200 47.7400
+\t (00:00:14) last pick:  -0.1200 47.7400
+\t (00:00:14) Element has no origin, using pick.
+\t (00:00:14) Pick new location for the element(s).
+\i (00:00:22) pick 0 0 
+\t (00:00:22) last pick:  0.0000 0.0000
+\e (00:00:22) ERROR(SPMHA1-68): Line segments are outside of the extents.
+\i (00:00:26) undo 
+\i (00:00:26) trapsize 5427
+\i (00:00:27) generaledit 
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 4.9783 0.2026
+\t (00:00:28) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:28) trapsize 2713
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 3.9472 0.7996
+\t (00:00:28) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:28) trapsize 1357
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 3.7301 1.1253
+\t (00:00:29) Grids are drawn 0.0800, 0.0800 apart for enhanced viewability.
+\i (00:00:29) trapsize 678
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 3.7437 1.2067
+\t (00:00:29) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:29) trapsize 1357
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 4.0694 1.3152
+\t (00:00:29) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:29) trapsize 2713
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 4.7749 1.7493
+\t (00:00:30) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:30) trapsize 5427
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 12.7930 11.3820
+\i (00:00:30) trapsize 5427
+\i (00:00:31) exit 
+\e (00:00:31) Do you want to save the changes you made to ST7565.dra?
+\i (00:00:33) fillin no 
+\t (00:00:33)     Journal end - Mon Jan 30 15:10:44 2017

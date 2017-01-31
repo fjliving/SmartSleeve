@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : ST7565.dra                                    )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Jan 27 12:11:03 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/Fred/Desktop/Livingston Models/ST7565
+    Name      = st7565.psm
+    User      = Fred
+    Machine   = FJLIVING
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

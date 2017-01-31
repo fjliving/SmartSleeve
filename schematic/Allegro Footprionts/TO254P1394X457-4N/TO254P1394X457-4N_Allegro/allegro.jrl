@@ -1,0 +1,14 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:10:50 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=3520 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\TO254P1394X457-4N\TO254P1394X457-4N_Allegro\TO254P1394X457-4N.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/Fred/Desktop/Livingston Models/TO254P1394X457-4N/TO254P1394X457-4N_Allegro/TO254P1394X457-4N.dra
+\i (00:00:02) trapsize 720
+\i (00:00:03) trapsize 741
+\i (00:00:03) trapsize 920
+\i (00:00:03) generaledit 
+\i (00:02:08) exit 
+\t (00:02:08)     Journal end - Mon Jan 30 15:12:59 2017

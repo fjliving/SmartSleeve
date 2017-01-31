@@ -1,0 +1,111 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : SMARTSLEEVESYSTEM.brd                         )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jan 30 22:04:51 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Jan 30 22:04:51 2017				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/livingston/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'R540_180'  pad stack refresh starting.
+
+     'R540_180'  pad stack refreshed successfully.
+     
+'PAD55SQ25D'  pad stack refresh starting.
+
+     'PAD55SQ25D'  pad stack refreshed successfully.
+     
+'S700C50'  pad stack refresh starting.
+
+     'S700C50'  pad stack refreshed successfully.
+     
+'R187_30'  pad stack refresh starting.
+
+     'R187_30'  pad stack refreshed successfully.
+     
+'B187_30'  pad stack refresh starting.
+
+     'B187_30'  pad stack refreshed successfully.
+     
+'R936_1062'  pad stack refresh starting.
+
+     'R936_1062'  pad stack refreshed successfully.
+     
+'R297_147'  pad stack refresh starting.
+
+     'R297_147'  pad stack refreshed successfully.
+     
+'R115_35'  pad stack refresh starting.
+
+     'R115_35'  pad stack refreshed successfully.
+     
+'PAD60CIR35'  pad stack refresh starting.
+
+     'PAD60CIR35'  pad stack refreshed successfully.
+     
+'HOLE120'  pad stack refresh starting.
+
+     'HOLE120'  pad stack refreshed successfully.
+     
+'C58H35T58'  pad stack refresh starting.
+
+     'C58H35T58'  pad stack refreshed successfully.
+     
+'S58H35T58'  pad stack refresh starting.
+
+     'S58H35T58'  pad stack refreshed successfully.
+     
+'C147H87T127_157'  pad stack refresh starting.
+
+     'C147H87T127_157'  pad stack refreshed successfully.
+     
+'S147H87T127_157'  pad stack refresh starting.
+
+     'S147H87T127_157'  pad stack refreshed successfully.
+     
+'R100_135'  pad stack refresh starting.
+
+     'R100_135'  pad stack refreshed successfully.
+     
+'R107_145'  pad stack refresh starting.
+
+     'R107_145'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

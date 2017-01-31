@@ -1,0 +1,12 @@
+cd "C:/Users/Fred/Desktop/Livingston Models/SOP50P440X140-10N/SOP50P440X140-10N_Allegro"
+skill (LB_createFootprint "C:/Users/Fred/Desktop/Livingston Models/SOP50P440X140-10N/SOP50P440X140-10N_Allegro/SOP50P440X140-10N.xml")
+scriptmode +i +n
+step pkg map 
+setwindow form.pkgmap3d
+FORM pkgmap3d stplist SOP50P440X140-10N.step
+FORM pkgmap3d rotation_x 90
+FORM pkgmap3d save_current 
+FORM pkgmap3d done  
+setwindow pcb
+save 
+fillin yes

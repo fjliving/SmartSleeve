@@ -1,0 +1,14 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:00:04 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=17812 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\DIP254P254X533-6N\DIP254P254X533-6N_Allegro\DIP254P254X533-6N.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Fred/Desktop/Livingston Models/DIP254P254X533-6N/DIP254P254X533-6N_Allegro/DIP254P254X533-6N.dra
+\i (00:00:03) trapsize 920
+\i (00:00:04) trapsize 947
+\i (00:00:04) trapsize 947
+\i (00:00:06) generaledit 
+\i (00:00:15) exit 
+\t (00:00:16)     Journal end - Mon Jan 30 15:00:20 2017

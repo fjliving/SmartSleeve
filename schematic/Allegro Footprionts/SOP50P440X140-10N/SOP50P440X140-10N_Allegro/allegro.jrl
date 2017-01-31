@@ -1,0 +1,14 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:09:47 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=11684 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\SOP50P440X140-10N\SOP50P440X140-10N_Allegro\SOP50P440X140-10N.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/Fred/Desktop/Livingston Models/SOP50P440X140-10N/SOP50P440X140-10N_Allegro/SOP50P440X140-10N.dra
+\i (00:00:03) trapsize 297
+\i (00:00:04) trapsize 306
+\i (00:00:04) trapsize 380
+\i (00:00:05) generaledit 
+\i (00:00:15) exit 
+\t (00:00:15)     Journal end - Mon Jan 30 15:10:02 2017

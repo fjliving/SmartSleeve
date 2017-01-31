@@ -1,0 +1,35 @@
+\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Jan 27 12:09:17 2017
+\t (00:00:03)         Host=FJLIVING User=Fred Pid=12516 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\TO254P1394X457-4N\TO254P1394X457-4N_Allegro\TO254P1394X457-4N.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Fred/Desktop/Livingston Models/TO254P1394X457-4N/TO254P1394X457-4N_Allegro/TO254P1394X457-4N.dra
+\i (00:00:03) trapsize 720
+\i (00:00:03) trapsize 741
+\i (00:00:03) trapsize 920
+\i (00:00:04) generaledit 
+\i (00:00:28) pick grid 1.6751 6.2110
+\t (00:00:28) last pick:  2.5400 5.0800
+\i (00:00:29) pick grid 1.7303 6.0638
+\t (00:00:29) last pick:  2.5400 5.0800
+\i (00:00:30) pick grid 1.6383 6.2662
+\t (00:00:30) last pick:  2.5400 5.0800
+\i (00:00:31) drag_start grid 1.0495 6.3582
+\i (00:00:31) move 
+\t (00:00:31) last pick:  -0.0013 5.5850
+\t (00:00:31) Pick new location for the element(s).
+\i (00:00:31) drag_stop grid -0.0546 6.3582
+\i (00:00:31) generaledit 
+\i (00:00:32) pick grid 1.3439 6.3030
+\t (00:00:32) last pick:  2.5400 5.0800
+\i (00:00:34) undo 
+\i (00:00:34) trapsize 920
+\i (00:00:34) generaledit 
+\i (00:00:35) pick grid 1.7487 6.2478
+\t (00:00:35) last pick:  2.5400 5.0800
+\i (00:10:26) exit 
+\e (00:10:26) Do you want to save the changes you made to TO254P1394X457-4N.dra?
+\i (00:10:30) fillin no 
+\t (00:10:30)     Journal end - Fri Jan 27 12:19:44 2017

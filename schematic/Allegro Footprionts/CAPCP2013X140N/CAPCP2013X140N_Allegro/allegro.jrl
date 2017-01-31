@@ -1,0 +1,14 @@
+\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Jan 30 14:59:03 2017
+\t (00:00:03)         Host=FJLIVING User=Fred Pid=17700 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\CAPCP2013X140N\CAPCP2013X140N_Allegro\CAPCP2013X140N.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/Fred/Desktop/Livingston Models/CAPCP2013X140N/CAPCP2013X140N_Allegro/CAPCP2013X140N.dra
+\i (00:00:06) trapsize 345
+\i (00:00:06) trapsize 355
+\i (00:00:06) trapsize 440
+\i (00:00:07) generaledit 
+\i (00:00:09) exit 
+\t (00:00:09)     Journal end - Mon Jan 30 14:59:10 2017

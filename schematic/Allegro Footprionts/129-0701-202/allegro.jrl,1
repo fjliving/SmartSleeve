@@ -1,0 +1,93 @@
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Jan 27 15:41:56 2017
+\t (00:00:02)         Host=FJLIVING User=Fred Pid=10096 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\129-0701-202\129-0701-202.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/Fred/Desktop/Livingston Models/129-0701-202/129-0701-202.dra
+\i (00:00:04) trapsize 114
+\i (00:00:04) trapsize 118
+\i (00:00:04) trapsize 118
+\i (00:00:05) generaledit 
+\i (00:00:28) pick grid -0.286 2.042
+\t (00:00:28) last pick:  0.000 2.540
+\i (00:00:29) prepopup -0.286 2.042
+\i (00:00:38) add pin 
+\i (00:00:46) pick grid 1.432 5.359
+\t (00:00:46) last pick:  2.540 5.080
+\e (00:00:46) ERROR(SPMHAP-2): No padstack specified.
+\i (00:00:47) pick grid 0.279 2.889
+\t (00:00:47) last pick:  0.000 2.540
+\e (00:00:47) ERROR(SPMHAP-2): No padstack specified.
+\i (00:00:50) pick grid 4.019 6.512
+\t (00:00:50) last pick:  5.080 7.620
+\e (00:00:50) ERROR(SPMHAP-2): No padstack specified.
+\i (00:01:06) pick grid 10.089 3.924
+\t (00:01:06) last pick:  10.160 5.080
+\e (00:01:06) ERROR(SPMHAP-2): No padstack specified.
+\i (00:01:10) delete 
+\t (00:01:10) Exiting from Add Pin.
+\i (00:01:11) generaledit 
+\i (00:01:13) pick grid 0.349 0.843
+\t (00:01:13) last pick:  0.000 0.000
+\i (00:01:14) pick grid 0.561 -2.216
+\t (00:01:14) last pick:  0.000 -2.540
+\i (00:01:14) pick grid 0.138 -0.757
+\t (00:01:14) last pick:  0.000 0.000
+\i (00:01:17) prepopup -7.367 6.512
+\i (00:01:18) prepopup -8.237 2.184
+\i (00:01:19) pick grid -7.437 2.960
+\t (00:01:19) last pick:  -7.620 2.540
+\i (00:01:20) delete 
+\i (00:01:26) setwindow form.find
+\i (00:01:26) FORM find all_off  
+\i (00:01:26) FORM find pins YES 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) pick grid 0.067 -0.075
+\t (00:01:28) last pick:  0.000 0.000
+\t (00:01:28) Pin "Pad60cir38d, 2"
+\i (00:01:28) pick grid 0.138 -1.980
+\t (00:01:28) last pick:  0.000 -2.540
+\t (00:01:28) Pin "Pad60cir38d, 3"
+\i (00:01:29) pick grid -7.390 -0.004
+\t (00:01:29) last pick:  -7.620 0.000
+\i (00:01:35) add pin 
+\i (00:01:39) prepopup 9.736 5.030
+\i (00:01:40) done 
+\t (00:01:40) Exiting from Add Pin.
+\i (00:01:40) generaledit 
+\i (00:01:41) add pin 
+\i (00:01:45) setwindow form.mini
+\i (00:01:45) FORM mini pad_browse  
+\i (00:02:23) fillin "Pad60cir35"
+\w (00:02:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:02:23) Using 'PAD60CIR35.pad'.
+\i (00:02:25) setwindow pcb
+\i (00:02:25) pick grid 0.161 1.219
+\t (00:02:25) last pick:  0.000 0.000
+\t (00:02:25) Using 'PAD60CIR35.pad'.
+\i (00:02:33) setwindow form.mini
+\i (00:02:33) FORM mini pintype_mechanical YES 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) pick grid 1.055 3.078
+\t (00:02:35) last pick:  0.000 2.540
+\t (00:02:35) Using 'PAD60CIR35.pad'.
+\i (00:02:37) pick grid -0.309 -1.275
+\t (00:02:37) last pick:  0.000 -2.540
+\t (00:02:37) Using 'PAD60CIR35.pad'.
+\i (00:02:38) prepopup 7.125 0.866
+\i (00:02:38) done 
+\t (00:02:38) Exiting from Add Pin.
+\i (00:02:39) generaledit 
+\i (00:02:43) padeditdb 
+\i (00:02:44) setwindow form.mini
+\i (00:02:44) FORM mini padlist PAD60CIR38D 
+\i (00:02:44) FORMDBLCLK mini padlist PAD60CIR38D 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) save 
+\i (00:03:29) fillin yes 
+\t (00:03:29) Symbol '129-0701-202.psm' created.
+\i (00:03:29) generaledit 
+\i (01:27:47) exit 
+\t (01:27:50)     Journal end - Fri Jan 27 17:09:44 2017

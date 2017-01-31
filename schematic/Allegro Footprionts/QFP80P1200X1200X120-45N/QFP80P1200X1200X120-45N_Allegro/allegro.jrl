@@ -1,0 +1,14 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Jan 30 15:09:03 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=15416 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Fred\Desktop\Livingston Models\QFP80P1200X1200X120-45N\QFP80P1200X1200X120-45N_Allegro\QFP80P1200X1200X120-45N.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Fred/Desktop/Livingston Models/QFP80P1200X1200X120-45N/QFP80P1200X1200X120-45N_Allegro/QFP80P1200X1200X120-45N.dra
+\i (00:00:03) trapsize 849
+\i (00:00:04) trapsize 874
+\i (00:00:04) trapsize 1085
+\i (00:00:05) generaledit 
+\i (00:00:20) exit 
+\t (00:00:20)     Journal end - Mon Jan 30 15:09:23 2017

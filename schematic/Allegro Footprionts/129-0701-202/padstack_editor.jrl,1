@@ -1,0 +1,41 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 27 15:40:40 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=1120 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Fred -file ./#Taaaabb04684.tmp -pname PAD60CIR38D -data C:/Users/Fred/AppData/Local/Temp/#Taaaabd04684.tmp
+\t (00:00:00) 
+\d (00:00:03) QtSignal MainWindow Units CurrentIndexChanged Mils
+\d (00:00:05) QtFillin Yes
+\w (00:00:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:05) QtSignal MainWindow Units activated Mils
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:15) QtSignal GuidedDrillTab holeXSize editingFinished 42.00
+\d (00:00:15) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:15) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:19) QtSignal GuidedDrillSymbol FigureWidth editingFinished 42.00
+\d (00:00:22) QtSignal GuidedDrillSymbol FigureHeight editingFinished 42.00
+\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:26) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 40.00" +
+\d (00:00:26) QtSignal 1 2
+\d (00:00:33) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 42.00
+\d (00:00:33) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:33) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" "Circle 60.00" +
+\d (00:00:33) QtSignal 2 2
+\d (00:00:34) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:35) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:36) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:37) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:38) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:39) QtSignal MainWindow Save triggered
+\d (00:00:43) QtSignal pseCheckBrowser Close clicked
+\d (00:00:45) QtFillin Cancel
+\d (00:00:47) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:48) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:48) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 42.00" +
+\d (00:00:48) QtSignal 1 2
+\d (00:00:52) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 60.00
+\d (00:00:55) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:57) QtSignal MainWindow Save triggered
+\t (00:00:59)     Journal end - Fri Jan 27 15:41:40 2017

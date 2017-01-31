@@ -1,0 +1,470 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Jan-30-2017 at 16:32:08 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SMARTSLEEVESYSTEM';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_ELECT_CAPCP2013X140N_10UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS48990@ANALOG.C_ELECT.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins48990@analog.\c_elect.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins48990@analog.\c_elect.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38837@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38837@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38837@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38654@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38654@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38654@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_CAPC2013X140N_18PF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38327@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38327@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38327@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_CAPC2013X140N_18PF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38375@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38375@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38375@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36146@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36146@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36146@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_CAPC2013X140N_1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS53080@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins53080@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins53080@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS53166@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins53166@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins53166@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAPC2013X140N_1000PF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS53150@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins53150@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins53150@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS55479@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins55479@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins55479@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_ELECT_CAPCP2013X140N_10UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS55313@ANALOG.C_ELECT.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins55313@analog.\c_elect.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins55313@analog.\c_elect.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_ELECT_CAPCP2013X140N_10UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS55363@ANALOG.C_ELECT.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins55363@analog.\c_elect.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins55363@analog.\c_elect.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_CAPC2013X140N_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS42358@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins42358@analog.\c.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins42358@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'MM3Z3V3S_0_DIOC2512X140N_MM3Z3V':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS41716@CURRENT.MM3Z3V3S_0.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins41716@current.\mm3z3v3s_0.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins41716@current.\mm3z3v3s_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_DIP500P550X533-4N_CON_BATT':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS35452@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins35452@connector.\con2.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins35452@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'CON2_DIP500P550X533-4N_CON_USB':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS61003@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins61003@connector.\con2.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins61003@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'CON2_DIP500P550X533-4N_CON_USB':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS61474@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins61474@connector.\con2.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins61474@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON6A_DIP254P254X533-6N_CON_SPI':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS39308@CONNECTOR.CON6A.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins39308@connector.\con6a.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins39308@connector.\con6a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON1_HOLE125_CON_MNT':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36502@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36502@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36502@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON1_HOLE125_CON_MNT':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36516@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36516@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36516@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON1_HOLE125_CON_MNT':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36530@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36530@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36530@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON1_HOLE125_CON_MNT':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36544@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36544@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36544@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON1_129-0701-202_CON_SENSOR':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS57318@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins57318@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins57318@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON1_129-0701-202_CON_SENSOR':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS57340@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins57340@connector.\con1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins57340@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RESC2013X140N_100K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS52964@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins52964@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins52964@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RESC2013X140N_10K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS41652@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins41652@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins41652@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RESC2013X140N_22':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38020@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38020@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38020@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RESC2013X140N_7.15K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS41698@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins41698@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins41698@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RESC2013X140N_22':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38036@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38036@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38036@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RESC2013X140N_100':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS45587@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins45587@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins45587@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RESC2013X140N_0':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS43796@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins43796@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins43796@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RESC2013X140N_100':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS52986@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins52986@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins52986@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RESC2013X140N_1.91K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36124@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36124@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36124@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RESC2013X140N_4.02K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36198@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36198@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36198@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RESC2013X140N_4.02K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36218@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36218@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36218@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RESC2013X140N_127K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS53130@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins53130@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins53130@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RESC2013X140N_4.02K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36298@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36298@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36298@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RESC2013X140N_1.91K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS36348@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins36348@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins36348@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RESC2013X140N_10K':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS39428@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins39428@analog.\r.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins39428@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON_DIP500P550X533-4N':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS45958@DISCRETE.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins45958@discrete.\sw pushbutton.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins45958@discrete.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW KEY-SPST_DIP500P550X533-4N_S':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS43572@DISCRETE.SW KEY-SPST.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins43572@discrete.\sw key-spst.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins43572@discrete.\sw key-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'INA327_1_SOP50P440X140-10N_INA3':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS52898@SMARTSLEEVESYSTEM.INA327_1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins52898@smartsleevesystem.\ina327_1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins52898@smartsleevesystem.\ina327_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LD1086_2_TO254P1394X457-4N_LD10':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS54253@SMARTSLEEVESYSTEM.LD1086_2.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins54253@smartsleevesystem.\ld1086_2.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins54253@smartsleevesystem.\ld1086_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'ATMEGA128A4U_6_QFP80P1200X1200X':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS37597@SMARTSLEEVESYSTEM.ATMEGA128A4U_6.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins37597@smartsleevesystem.\atmega128a4u_6.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins37597@smartsleevesystem.\atmega128a4u_6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'ST7565_1_ST7565_ST7565':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS44949@SMARTSLEEVESYSTEM.ST7565_1.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins44949@smartsleevesystem.\st7565_1.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins44949@smartsleevesystem.\st7565_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'ZTA_CRYSTAL1190X300N_ZTA_16MHZ':;
+
+SECTION_NUMBER 1
+ '@SMARTSLEEVESYSTEM.SCHEMATIC1(SCH_1):INS38359@DISCRETE.ZTA.NORMAL(CHIPS)':
+ C_PATH='@smartsleevesystem.schematic1(sch_1):ins38359@discrete.\zta.normal\(chips)',
+ P_PATH='@smartsleevesystem.schematic1(sch_1):page1_ins38359@discrete.\zta.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,77 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 27 14:42:00 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=15436 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Fred -file ./#Taaaaap04684.tmp -pname HOLE120 -data C:/Users/Fred/AppData/Local/Temp/#Taaaaar04684.tmp
+\t (00:00:00) 
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:16) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:28) QtSignal GuidedDrillTab holeXSize editingFinished 125
+\d (00:00:28) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:29) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:35) QtSignal GuidedDrillSymbol FigureDiameter editingFinished 125
+\d (00:00:35) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:36) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:42) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 135
+\d (00:00:42) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:42) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 120" +
+\d (00:00:42) QtSignal 1 2
+\d (00:00:44) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 125
+\d (00:00:44) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:44) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" "Circle 130" +
+\d (00:00:44) QtSignal 2 2
+\d (00:00:48) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 135
+\d (00:00:48) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:48) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 125" +
+\d (00:00:48) QtSignal 1 2
+\d (00:00:49) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:52) QtSignal GuidedMaskLayersTab PadDiameter editingFinished 145
+\d (00:00:52) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
+\d (00:00:52) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad "Circle 140" 1 1
+\d (00:00:56) QtSignal GuidedMaskLayersTab PadDiameter editingFinished 145
+\d (00:00:56) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:57) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:58) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:01:01) QtSignal MainWindow Save triggered
+\d (00:01:16) QtSignal pseCheckBrowser Save clicked
+\d (00:01:18) QtFillin 
+\d (00:01:19) QtSignal pseCheckBrowser Close clicked
+\d (00:01:21) QtFillin Yes
+\d (00:01:26) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:30) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:01:31) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:01:33) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:01:34) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:01:35) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:44) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 135
+\d (00:01:44) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Layer Name" "DEFAULT INTERNAL" +
+\d (00:01:44) QtSignal 1 1
+\d (00:01:49) QtSignal MainWindow Save triggered
+\d (00:01:52) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:53) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:01:53) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:54) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:01:55) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:01:55) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:01:59) QtSignal GuidedTabsParent PadstackTypes currentRowChanged 8
+\d (00:01:59) QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "Mounting Hole"
+\d (00:01:59) QtSignal GuidedTabsParent PadstackTypes itemClicked "Mounting Hole"
+\d (00:02:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:02:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:02:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:02:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:02:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:02:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:02:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:02:11) QtSignal MainWindow Save triggered
+\d (00:02:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\t (00:02:23)     Journal end - Fri Jan 27 14:44:23 2017

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIOC2512X140N.dra                             )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Jan 27 08:40:30 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/Fred/Desktop/Livingston Models/DIOC2512X140N/DIOC2512X140N_Allegro
+    Name      = dioc2512x140n.psm
+    User      = Fred
+    Machine   = FJLIVING
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

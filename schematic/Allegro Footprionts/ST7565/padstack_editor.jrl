@@ -1,0 +1,39 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Jan 27 11:42:12 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=14416 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe C:\Users\Fred\Desktop\Livingston Models\ST7565\c46h28t46.pad
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:13) QtSignal GuidedDrillTab holeXSize editingFinished 28.000
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:17) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:17) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" "Circle 58.000" +
+\d (00:00:17) QtSignal 0 2
+\d (00:00:18) QtSignal GuidedDesignLayersTab LayersTable cellDoubleClicked 0 "Regular Pad" "Circle 58.000" +
+\d (00:00:18) QtSignal 0 2
+\d (00:00:18) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" "Circle 58.000" +
+\d (00:00:18) QtSignal 0 2
+\d (00:00:18) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" "Circle 58.000" +
+\d (00:00:18) QtSignal 0 2
+\d (00:00:19) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" "Circle 58.000" +
+\d (00:00:19) QtSignal 0 2
+\d (00:00:24) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 46.000
+\d (00:00:24) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
+\d (00:00:24) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" "Circle 58.000" +
+\d (00:00:24) QtSignal 1 2
+\d (00:00:30) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 46.000
+\d (00:00:30) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:30) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" "Circle 58.000" +
+\d (00:00:30) QtSignal 2 2
+\d (00:00:34) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 46.000
+\d (00:00:34) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:41) QtSignal GuidedMaskLayersTab PadDiameter editingFinished 46.000
+\d (00:00:41) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
+\d (00:00:41) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad "Circle 58.165" 1 1
+\d (00:00:46) QtSignal GuidedMaskLayersTab PadDiameter editingFinished 46.000
+\d (00:00:46) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:47) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:49) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:51) QtSignal MainWindow Save triggered
+\t (00:32:08)     Journal end - Fri Jan 27 12:14:21 2017
