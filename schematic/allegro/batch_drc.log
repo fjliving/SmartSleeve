@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
-(    Software Version : 17.2P019                                      )
-(    Date/Time        : Mon Jan 30 22:08:52 2017                      )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Feb 01 23:21:34 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,3 +19,9 @@
  ========= check standalone lines             0:00:00
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
+
+ ..... Total number of DRC errors  26
+
+ ..... DRC update completed, total CPU time   0:00:00
+ *************************************************************************
+

@@ -1,9 +1,9 @@
-Mon Jan 30 22:08:52 2017				Page     1
+Wed Feb 01 22:47:32 2017				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Mon Jan 30 22:08:52 2017
+	Wed Feb 01 22:47:32 2017
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Mon Jan 30 22:08:52 2017                      )
+(    Date/Time        : Wed Feb 01 22:47:32 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Mon Jan 30 22:08:52 2017				Page     1
+Wed Feb 01 22:47:32 2017				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -35,7 +35,7 @@ Output design = ''
 Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
 Update package symbols                 = 'YES'
-Update shape/flash symbols             = 'YES'
+Update shape/flash symbols             = 'NO'
 Update symbol padstacks                = 'NO'
 Preserve padstacks replaced on pins    = 'NO'
 Reset symbol text and size locations   = 'NO'
@@ -65,6 +65,11 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
+
+'HOLE125'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'HOLE125': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent has th~
+     e FIXED property. [help]'.
+     
 'DIOC2512X140N'  symbol refreshed successfully.
 'DIP254P254X533-6N'  symbol refreshed successfully.
 'CRYSTAL1190X300N'  symbol refreshed successfully.
@@ -95,17 +100,12 @@ PADPATH =  .
      ent has the FIXED property. [help]'.
      
 
-'HOLE125'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'HOLE125': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent has th~
-     e FIXED property. [help]'.
-     
-
 '129-0701-202'  symbol starting to refresh:
      ERROR(SPMHNI-254): Unable to load symbol, '129-0701-202': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent h~
      as the FIXED property. [help]'.
      
-'ST7565'  symbol refreshed successfully.
-'AB00'  symbol refreshed successfully.
-'S700C50_TOP'  symbol refreshed successfully.
-'S700C50_PM'  symbol refreshed successfully.
-'S700C50_SM'  symbol refreshed successfully.
+
+'ST7565'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'ST7565': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent has the~
+      FIXED property. [help]'.
+     

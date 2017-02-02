@@ -1,0 +1,23 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Feb 01 22:56:29 2017
+\t (00:00:00)         Host=FJLIVING User=Fred Pid=14740 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession Fred -file ./#Taaaacg19792.tmp -pname VIA -data C:/Users/Fred/AppData/Local/Temp/#Taaaaci19792.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:10) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:12) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:14) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:16) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:19) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:20) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:25) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:27) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:00:28) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:33) QtSignal MainWindow UpdateToDesignExit triggered
+\d (00:00:44) QtSignal pseCheckBrowser Close clicked
+\t (00:00:44)     Journal end - Wed Feb 01 22:57:14 2017
