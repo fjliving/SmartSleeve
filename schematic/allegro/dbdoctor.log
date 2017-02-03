@@ -4,21 +4,10 @@
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Wed Feb 01 23:21:34 2017                      )
+(    Date/Time        : Fri Feb 03 11:10:52 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-ERROR: in SHAPE (no segment)
-  class = BOARD GEOMETRY
-  subclass = OUTLINE 
-  WARNING(SPMHA1-62): Illegal parent identifier.
-   Error was fixed, object was deleted.
-
-Regenerating DRC
-  Original DRC errors:   0
-  Updated DRC errors:    26
-  DRC elapsed time:      00:00:01
-
-0 warnings, 1 errors detected, 1 errors  fixed.
+0 warnings, 0 errors detected, 0 errors could be fixed.

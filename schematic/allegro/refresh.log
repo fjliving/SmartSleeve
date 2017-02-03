@@ -1,9 +1,9 @@
-Wed Feb 01 22:47:32 2017				Page     1
+Fri Feb 03 10:15:05 2017				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Wed Feb 01 22:47:32 2017
+	Fri Feb 03 10:15:05 2017
 
 ------ Module Refresh Messages ------
 
@@ -19,22 +19,22 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Wed Feb 01 22:47:32 2017                      )
+(    Date/Time        : Fri Feb 03 10:15:05 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Feb 01 22:47:32 2017				Page     1
+Fri Feb 03 10:15:05 2017				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design  = 'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
+Input design  = 'C:/Users/Fred/Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd'
 Output design = ''
 
 Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
-Update package symbols                 = 'YES'
+Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
 Update symbol padstacks                = 'NO'
 Preserve padstacks replaced on pins    = 'NO'
@@ -42,6 +42,7 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/Fred/AppData/Local/Temp/#Taaaaab09792.tmp'
 
 
 ------ Library Paths ------
@@ -65,47 +66,11 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-
-'HOLE125'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'HOLE125': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent has th~
-     e FIXED property. [help]'.
-     
-'DIOC2512X140N'  symbol refreshed successfully.
-'DIP254P254X533-6N'  symbol refreshed successfully.
-'CRYSTAL1190X300N'  symbol refreshed successfully.
-'QFP80P1200X1200X120-45N'  symbol refreshed successfully.
-
-'TO254P1394X457-4N'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'TO254P1394X457-4N': 'ERROR(SPMHDB-243): Cannot modify element; the object or a par~
-     ent has the FIXED property. [help]'.
-     
 'SOP50P440X140-10N'  symbol refreshed successfully.
 
-'CAPC2013X140N'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'CAPC2013X140N': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent ~
-     has the FIXED property. [help]'.
-     
 
-'CAPCP2013X140N'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'CAPCP2013X140N': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent~
-      has the FIXED property. [help]'.
-     
-'RESC2013X140N'  symbol refreshed successfully.
+----- Symbol Update Summary ----
 
-'DIP500P550X533-4N'  symbol starting to refresh:
-     WARNING(SPMHNI-339): Symbol definition contains ETCH but Instance has no associated ETCH.
-     Check for duplicate or misaligned symbol etch. (NOTE: dbdoctor will remove duplicate VIAs)
-     
-     ERROR(SPMHNI-254): Unable to load symbol, 'DIP500P550X533-4N': 'ERROR(SPMHDB-243): Cannot modify element; the object or a par~
-     ent has the FIXED property. [help]'.
-     
+Updated symbols: 1 out 1
+    Design updated.
 
-'129-0701-202'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, '129-0701-202': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent h~
-     as the FIXED property. [help]'.
-     
-
-'ST7565'  symbol starting to refresh:
-     ERROR(SPMHNI-254): Unable to load symbol, 'ST7565': 'ERROR(SPMHDB-243): Cannot modify element; the object or a parent has the~
-      FIXED property. [help]'.
-     
