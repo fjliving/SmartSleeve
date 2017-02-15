@@ -2,13 +2,13 @@
 R_R29         0 N50764  1.91k TC=0,0 
 R_R3         N50764 VIN- R_R3 4.02k TC=0,0 
 .model        R_R3 RES R=1 DEV=0.1%
-V_V1         VCC 0 3.3Vdc
+V_V1         VCC 0 3.2943Vdc
 C_C4         VCC 0  10uF  
 C_C2         0 VCC  0.1uF  TC=0,0 
 C_C5         0 VCC  0.1uF  TC=0,0 
 R_R25         VIN- N50572 R_R25 4.02k TC=0,0 
 .model        R_R25 RES R=1 DEV=0.1%
-R_R4         N50764 VIN+ R_R4 100k TC=0,0 
+R_R4         0 0 R_R4 10k TC=0,0 
 .model        R_R4 RES R=1 DEV=0.1%
 R_R28         N50572 VCC  1.91k TC=0,0 
 R_R26         VIN+ N50572 R_R26 4.02k TC=0,0 

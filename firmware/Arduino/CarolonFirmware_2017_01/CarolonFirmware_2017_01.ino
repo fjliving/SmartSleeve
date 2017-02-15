@@ -1,41 +1,42 @@
 
 /* Target Ardufruit Metro */
 #include <U8glib.h>
-#include <math.h>
+//#include <math.h>
 
 //#define DEBUG
 
 /* Pressure Curve Fit 11-28-2016 */
-#define P1 458.6    // 450
-#define P2 -0.7116  // -0.7034
-#define P3 4.604    // 4.284
+//#define P1 458.6    // 450
+//#define P2 -0.7116  // -0.7034
+//#define P3 4.604    // 4.284
 #define offset 2.5
 
-#define VREF 5.082 //5.0365
-#define ADC_OFFSET 0
-#define PRESSURE_OFFSET 0
-
+#define VREF 3.0 //5.0365
 
 int          sensorPin         = A0;    // select the sensor input pin
 unsigned int sensorValue       = 0;     // variable to store the value coming from the sensor
+//int          batteryPin        = A1;
+//unsigned int batteryValue      = 0;
 float        sensorVoltage     = 0;
+//float        batteryVoltage    = 0;
 unsigned int sensorPressure    = 0;
 float        resistance        = 0;
-int          reset             = 1;
+short        reset             = 1;
 unsigned int initPressure      = 0;
 
-char   displayADC[10];
+//char   displayADC[10];
 char   displayPressure[10];
-char   displayResistance[10];
-char   displayVoltage[10];
-char   displayScalePressure[10];
+//char   displayResistance[10];
+//char   displayVoltage[10];
+//char   displayScalePressure[10];
 
 // pin 9 - Serial data out (SID)
 // pin 8 - Serial clock out (SCLK)
 // pin 7 - Data/Command select (RS or A0)
 // pin 6 - LCD reset (RST)
 // pin 5 - LCD chip select (CS)
-U8GLIB_LM6059_2X u8g(8, 9, 5, 7, 6); //(sck, mosi, cs, a0 [, reset])
+//U8GLIB_LM6059_2X u8g(8, 9, 5, 7, 6); //(sck, mosi, cs, a0 [, reset])
+U8GLIB_LM6059_2X u8g(4, 5, 6, 12, 14); //(sck, mosi, cs, a0 [, reset])
 
 void draw(void) {
     // graphic commands to redraw the complete screen should be placed here
@@ -71,6 +72,7 @@ void setup(void) {
 
     // set SPI backup if required
     //u8g.setHardwareBackup(u8g_backup_avr_spi);
+    initBoard();
 
     // assign default color value
     if (u8g.getMode() == U8G_MODE_R3G3B2) {
@@ -86,22 +88,48 @@ void setup(void) {
     // set the contrast
     u8g.setContrast(100); //110
 
-    analogReference(DEFAULT); // DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL
+    //analogReference(DEFAULT); // DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL
+    analogReference(INTERNAL); // DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL
 
     // get initial voltage
     calcPressure();
     initPressure = sensorPressure;
 }
 
-void calcVoltage() {
+void initBoard(void) {
+  short ledPin            = 10;  //PD3
+  short lcdPin            = 11;  //PD4
+  short adcPin            = 9;  //PD2
+
+  pinMode(ledPin, OUTPUT);      // sets the digital pin as output
+  pinMode(lcdPin, OUTPUT);      // sets the digital pin as output
+  pinMode(adcPin, OUTPUT);      // sets the digital pin as output
+  digitalWrite(ledPin, HIGH);   // sets the LED on
+  digitalWrite(lcdPin, HIGH);   // sets the LCD on
+  digitalWrite(adcPin, HIGH);   // sets the ADC on
+}
+
+void calcVoltage(void) {
     // read the value from the sensor:
-    sensorValue = analogRead(sensorPin) -  ADC_OFFSET;
+    sensorValue = analogRead(sensorPin);
     if (sensorValue < 0) sensorValue = 0;
 
     sensorVoltage = sensorValue * VREF / 1023.0;
 }
+/*
+void calcBatteryVoltage(void) {
+    // read the value from the sensor:
+    batteryValue = analogRead(batteryPin);
+    if (batteryValue < 0) batteryValue = 0;
 
-void calcPressure() {
+    batteryVoltage = batteryValue * VREF / 1023.0;
+}*/
+
+void calcPressure(void) {
+   float P1 = 458.6;    // 450
+   float P2 = -0.7116;  // -0.7034
+   float P3 = 4.604;    // 4.284
+   
     // read the voltage for ADC
     calcVoltage();
 
@@ -113,7 +141,7 @@ void calcPressure() {
 
     // compute pressure from resistance
     sensorPressure =  P1 * pow(resistance / 1000.0, P2) + P3;
-    sensorPressure -= PRESSURE_OFFSET;
+    //sensorPressure =  458.6 * pow(resistance / 1000.0, -0.7116) + 4.604;
 
     // max of pressure
     if (sensorPressure >= 99) sensorPressure = 99;
@@ -122,10 +150,9 @@ void calcPressure() {
 }
 
 
-int roundPressure() {
+int roundPressure(void) {
     int retval = 0;
-
-
+ 
     if (sensorPressure >= (10 - offset) && sensorPressure < (10 + offset)) retval = 10;
     else if (sensorPressure >= (15 - offset) && sensorPressure < (15 + offset)) retval = 15;
     else if (sensorPressure >= (20 - offset) && sensorPressure < (20 + offset)) retval = 20;
@@ -144,30 +171,10 @@ int roundPressure() {
     return retval;
 }
 
-
-int floorPressure() {
-    int retval = 0;
-    if (sensorPressure >= 10 && sensorPressure < 15) retval = 10;
-    else if (sensorPressure >= 15 && sensorPressure < 20) retval = 15;
-    else if (sensorPressure >= 20 && sensorPressure < 25) retval = 20;
-    else if (sensorPressure >= 25 && sensorPressure < 30) retval = 25;
-    else if (sensorPressure >= 30 && sensorPressure < 35) retval = 30;
-    else if (sensorPressure >= 35 && sensorPressure < 40) retval = 35;
-    else if (sensorPressure >= 40 && sensorPressure < 45) retval = 40;
-    else if (sensorPressure >= 45 && sensorPressure < 50) retval = 45;
-    else if (sensorPressure >= 50 && sensorPressure < 55) retval = 50;
-    else if (sensorPressure >= 55 && sensorPressure < 60) retval = 55;
-    else if (sensorPressure >= 60 && sensorPressure < 65) retval = 60;
-    else if (sensorPressure >= 65 && sensorPressure < 100) retval = 65;
-    else retval = 5;
-
-    return retval;
-}
-
-
 void loop(void) {
     // -------------- read the sensors voltage ------------------- //
     calcPressure();
+    //calcBatteryVoltage();
 
     if (reset == 1 && initPressure != sensorPressure) reset = 0;
 
@@ -192,8 +199,24 @@ void loop(void) {
 
     // ------------- Production Display (Larger Numbers) --------- //
 #else
-    if (sensorPressure > (65 + offset)) sprintf(displayPressure, "65+");
-    else sprintf(displayPressure, "%d", /*sensorPressure*/ roundPressure());
+    if (sensorPressure > (65 + offset)){
+      //sprintf(displayPressure, "65+");
+      displayPressure[0]='6';
+      displayPressure[1]='5';
+      displayPressure[2]='+';
+      displayPressure[3]=' ';
+      displayPressure[4]=' ';
+      displayPressure[5]=' ';
+      displayPressure[6]=' ';
+      displayPressure[7]=' ';
+      displayPressure[8]=' ';
+      displayPressure[9]=' ';
+    }
+    else{
+      //sprintf(displayPressure, "%d", /*sensorPressure*/ roundPressure());
+      int rp =  roundPressure();
+      itoa(rp, displayPressure, 10);
+    }
 #endif
 
     // --------------------- Update LCD Screen ------------------- //
