@@ -2,336 +2,110 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
+|  C:.../Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd  |
+|                                                    Thu Feb 23 11:24:18 2017  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  0            pins ADDED TO this new net
-                                 C1.N           C2.1           C3.1           
-                                 C4.1           C5.1           C6.1           
-                                 C7.N           C8.N           D1.A           
-                                 J1.2           R6.1           R8.1           
-                                 R12.1          R15.1          SW1.2          
-                                 U1.4           U2.1           
+  0            pins ADDED TO this existing net (pins not previously on any net)
+                                 C14.1                          
+                                 U6.1                           
+                                 U6.2                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC_BATT     pins ADDED TO this new net
-                                 D1.C           R10.1          R12.2          
-                                 U4.40          
+  N69103       pins ADDED TO this new net
+                                 U6.6                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC_ENABLE   pins ADDED TO this new net
-                                 U1.6           U4.20          
+  VCC          pins MOVED FROM this net (to net name listed on right)
+                                 C4.2             1330.0  1087.4
+                                                                        VCC_3V3
+                                 U1.5             1449.9  1090.6
+                                                                        VCC_3V3
+                                 U1.9             1630.1  1149.7
+                                                                        VCC_3V3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADC_SENSOR   pins ADDED TO this new net
-                                 C3.2           R2.2           U4.41          
+  VCC_3V3      pins MOVED FROM this net (to net name listed on right)
+                                 C1.P             1197.4   730.0
+                                                                         N69103
+                                 C2.2             1197.4   860.0
+                                                                         N69103
+                                 R3.2             1330.0   732.6
+                                                                         N69103
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  D+           pins ADDED TO this new net
-                                 J10.1          R11.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  D-           pins ADDED TO this new net
-                                 J11.2          R13.1          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins ADDED TO this new net
-                                 C9.1           C10.1          C11.1          
-                                 C12.1          C13.1          J2.6           
-                                 J11.1          R15.2          U4.5           
-                                 U4.15          U4.23          U4.35          
-                                 U4.43          U5.7           U5.11          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LCD_A0       pins ADDED TO this new net
-                                 U4.27          U5.3           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LCD_CS       pins ADDED TO this new net
-                                 U4.22          U5.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LCD_ENABLE   pins ADDED TO this new net
-                                 U4.25          U5.6           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LCD_RST      pins ADDED TO this new net
-                                 U4.26          U5.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LED_ENABLE   pins ADDED TO this new net
-                                 R14.1          U4.21          
+  VCC_BATT     pins ADDED TO this existing net (pins not previously on any net)
+                                 C14.2                          
+                                 U6.4                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  MISO         pins ADDED TO this new net
-                                 J2.1           U4.11          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  MOSI         pins ADDED TO this new net
-                                 J2.4           U4.10          U5.5           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N36170       pins ADDED TO this new net
-                                 R3.1           R4.2           R5.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N38056       pins ADDED TO this new net
-                                 R11.2          U4.4           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N38064       pins ADDED TO this new net
-                                 R13.2          U4.3           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N38439       pins ADDED TO this new net
-                                 C12.2          U4.17          Y1.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N38443       pins ADDED TO this new net
-                                 C13.2          U4.16          Y1.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N38761       pins ADDED TO this new net
-                                 C11.2          U4.6           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N39101       pins ADDED TO this new net
-                                 C10.2          U4.42          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N43629       pins ADDED TO this new net
-                                 J1.1           SW2.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N45603       pins ADDED TO this new net
-                                 R14.2          U5.9           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N52956       pins ADDED TO this new net
-                                 R1.2           U1.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N53016       pins ADDED TO this new net
-                                 R2.1           U1.8           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N53044       pins ADDED TO this new net
-                                 R1.1           U1.10          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N53076       pins ADDED TO this new net
-                                 C5.2           R6.2           U1.7           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  RS+          pins ADDED TO this new net
-                                 J8.1           R5.1           U1.3           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RS-          pins ADDED TO this new net
-                                 J9.1           R7.1           R8.2           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RST          pins ADDED TO this new net
-                                 J2.5           R9.2           SW1.1          
-                                 U4.13          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SCK          pins ADDED TO this new net
-                                 J2.3           U4.9           U5.4           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VBUS         pins ADDED TO this new net
-                                 J10.2          U4.7           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC          pins ADDED TO this new net
-                                 C4.2           U1.5           U1.9           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC_3V3      pins ADDED TO this new net
-                                 C1.P           C2.2           C6.2           
-                                 C7.P           C9.2           J2.2           
-                                 R3.2           R9.1           U2.2           
-                                 U2.4           U4.14          U4.24          
-                                 U4.34          U4.44          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC_BATT     pins ADDED TO this new net
-                                 C8.P           R10.2          SW2.1          
-                                 U2.3           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VIN-         pins ADDED TO this new net
-                                 R4.1           R7.2           U1.2           
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
+|  C:.../Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd  |
+|                                                    Thu Feb 23 11:24:18 2017  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- ATMEGA128A4U_6_QFP80P1200X1200X
- CON1_129-0701-202_CON_SENSOR
- CON1_HOLE125_CON_MNT
- CON2_DIP500P550X533-4N_CON_BATT
- CON2_DIP500P550X533-4N_CON_USB
- CON6A_DIP254P254X533-6N_CON_SPI
- C_CAPC2013X140N_0.1UF
- C_CAPC2013X140N_1000PF
- C_CAPC2013X140N_18PF
- C_CAPC2013X140N_1UF
- C_ELECT_CAPCP2013X140N_10UF
- INA327_1_SOP50P440X140-10N_INA3
- LD1086_2_TO254P1394X457-4N_LD10
- MM3Z3V3S_0_DIOC2512X140N_MM3Z3V
- R_RESC2013X140N_0
- R_RESC2013X140N_22
- R_RESC2013X140N_100
- R_RESC2013X140N_1.91K
- R_RESC2013X140N_100K
- R_RESC2013X140N_10K
- R_RESC2013X140N_127K
- R_RESC2013X140N_4.02K
- R_RESC2013X140N_7.15K
- ST7565_1_ST7565_ST7565
- SW KEY-SPST_DIP500P550X533-4N_S
- SW PUSHBUTTON_DIP500P550X533-4N
- ZTA_CRYSTAL1190X300N_ZTA_16MHZ
+ LD1086_5_SOT95P280X112-6N_LT179
+ R_RESC2013X140N_976
+ R_RESC2013X140N_113K
+ R_RESC2013X140N_8.2K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd  |
+|                                                    Thu Feb 23 11:24:18 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C14                 C_CAPC2013X140N_0.1UF 
+ U6                  LD1086_5_SOT95P280X112-6N_LT179 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd  |
+|                                                    Thu Feb 23 11:24:18 2017  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R3                  R_RESC2013X140N_976    1330.0   770.0 R_RESC2013X140N_1.91K
+ R4                  R_RESC2013X140N_8.2K   1610.0   770.0 R_RESC2013X140N_4.02K
+ R5                  R_RESC2013X140N_8.2K   1470.0   770.0 R_RESC2013X140N_4.02K
+ R6                  R_RESC2013X140N_113K   1770.0  1000.0 R_RESC2013X140N_127K
+ R7                  R_RESC2013X140N_8.2K   1750.0   770.0 R_RESC2013X140N_4.02K
+ R8                  R_RESC2013X140N_976    1890.0   770.0 R_RESC2013X140N_1.91K
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1                  C_ELECT_CAPCP2013X140N_10UF 
- C2                  C_CAPC2013X140N_0.1UF 
- C3                  C_CAPC2013X140N_1UF   
- C4                  C_CAPC2013X140N_0.1UF 
- C5                  C_CAPC2013X140N_1000PF 
- C6                  C_CAPC2013X140N_0.1UF 
- C7                  C_ELECT_CAPCP2013X140N_10UF 
- C8                  C_ELECT_CAPCP2013X140N_10UF 
- C9                  C_CAPC2013X140N_0.1UF 
- C10                 C_CAPC2013X140N_0.1UF 
- C11                 C_CAPC2013X140N_0.1UF 
- C12                 C_CAPC2013X140N_18PF  
- C13                 C_CAPC2013X140N_18PF  
- D1                  MM3Z3V3S_0_DIOC2512X140N_MM3Z3V 
- J1                  CON2_DIP500P550X533-4N_CON_BATT 
- J2                  CON6A_DIP254P254X533-6N_CON_SPI 
- J4                  CON1_HOLE125_CON_MNT  
- J5                  CON1_HOLE125_CON_MNT  
- J6                  CON1_HOLE125_CON_MNT  
- J7                  CON1_HOLE125_CON_MNT  
- J8                  CON1_129-0701-202_CON_SENSOR 
- J9                  CON1_129-0701-202_CON_SENSOR 
- J10                 CON2_DIP500P550X533-4N_CON_USB 
- J11                 CON2_DIP500P550X533-4N_CON_USB 
- R1                  R_RESC2013X140N_100K  
- R2                  R_RESC2013X140N_100   
- R3                  R_RESC2013X140N_1.91K 
- R4                  R_RESC2013X140N_4.02K 
- R5                  R_RESC2013X140N_4.02K 
- R6                  R_RESC2013X140N_127K  
- R7                  R_RESC2013X140N_4.02K 
- R8                  R_RESC2013X140N_1.91K 
- R9                  R_RESC2013X140N_10K   
- R10                 R_RESC2013X140N_10K   
- R11                 R_RESC2013X140N_22    
- R12                 R_RESC2013X140N_7.15K 
- R13                 R_RESC2013X140N_22    
- R14                 R_RESC2013X140N_100   
- R15                 R_RESC2013X140N_0     
- SW1                 SW PUSHBUTTON_DIP500P550X533-4N 
- SW2                 SW KEY-SPST_DIP500P550X533-4N_S 
- U1                  INA327_1_SOP50P440X140-10N_INA3 
- U2                  LD1086_2_TO254P1394X457-4N_LD10 
- U4                  ATMEGA128A4U_6_QFP80P1200X1200X 
- U5                  ST7565_1_ST7565_ST7565 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- Y1                  ZTA_CRYSTAL1190X300N_ZTA_16MHZ 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
+|  C:.../Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd  |
+|                                                    Thu Feb 23 11:24:18 2017  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.N                           PRIM_FILE      .\pstchip.dat
- C2.2                           PRIM_FILE      .\pstchip.dat
- C3.2                           PRIM_FILE      .\pstchip.dat
- C4.2                           PRIM_FILE      .\pstchip.dat
- C5.2                           PRIM_FILE      .\pstchip.dat
- C6.2                           PRIM_FILE      .\pstchip.dat
- C7.N                           PRIM_FILE      .\pstchip.dat
- C8.N                           PRIM_FILE      .\pstchip.dat
- C9.2                           PRIM_FILE      .\pstchip.dat
- C10.2                          PRIM_FILE      .\pstchip.dat
- C11.2                          PRIM_FILE      .\pstchip.dat
- C12.2                          PRIM_FILE      .\pstchip.dat
- C13.2                          PRIM_FILE      .\pstchip.dat
- D1.C                           PRIM_FILE      .\pstchip.dat
- J1.2                           PRIM_FILE      .\pstchip.dat
- J2.6                           PRIM_FILE      .\pstchip.dat
- J4.1                           PRIM_FILE      .\pstchip.dat
- J5.1                           PRIM_FILE      .\pstchip.dat
- J6.1                           PRIM_FILE      .\pstchip.dat
- J7.1                           PRIM_FILE      .\pstchip.dat
- J8.1                           PRIM_FILE      .\pstchip.dat
- J9.1                           PRIM_FILE      .\pstchip.dat
- J10.2                          PRIM_FILE      .\pstchip.dat
- J11.2                          PRIM_FILE      .\pstchip.dat
- R1.2                           PRIM_FILE      .\pstchip.dat
- R2.2                           PRIM_FILE      .\pstchip.dat
- R3.2                           PRIM_FILE      .\pstchip.dat
- R4.2                           PRIM_FILE      .\pstchip.dat
- R5.2                           PRIM_FILE      .\pstchip.dat
- R6.2                           PRIM_FILE      .\pstchip.dat
- R7.2                           PRIM_FILE      .\pstchip.dat
- R8.2                           PRIM_FILE      .\pstchip.dat
- R9.2                           PRIM_FILE      .\pstchip.dat
- R10.2                          PRIM_FILE      .\pstchip.dat
- R11.2                          PRIM_FILE      .\pstchip.dat
- R12.2                          PRIM_FILE      .\pstchip.dat
- R13.2                          PRIM_FILE      .\pstchip.dat
- R14.2                          PRIM_FILE      .\pstchip.dat
- R15.2                          PRIM_FILE      .\pstchip.dat
- SW1.2                          PRIM_FILE      .\pstchip.dat
- SW2.2                          PRIM_FILE      .\pstchip.dat
- U1.9                           PRIM_FILE      .\pstchip.dat
- U2.4                           PRIM_FILE      .\pstchip.dat
- U4.13                          PRIM_FILE      .\pstchip.dat
- U5.2                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ R3.2            1330.0   770.0 PRIM_FILE      .\pstchip.dat
+ R4.2            1610.0   770.0 PRIM_FILE      .\pstchip.dat
+ R5.2            1470.0   770.0 PRIM_FILE      .\pstchip.dat
+ R6.2            1770.0  1000.0 PRIM_FILE      .\pstchip.dat
+ R7.2            1750.0   770.0 PRIM_FILE      .\pstchip.dat
+ R8.2            1890.0   770.0 PRIM_FILE      .\pstchip.dat
+ U6.6                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|  C:.../DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd  |
-|                                                    Mon Jan 30 16:32:10 2017  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- Y1.2                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|       Nets changed          :     129                                        |
-|       Comp definitions added:      27                                        |
-|       Components added      :      46                                        |
-|       Slot property added   :      46                                        |
+|       Nets changed          :      12                                        |
+|       Comp definitions added:       4                                        |
+|       Components added      :       2                                        |
+|       Components changed    :       6                                        |
+|       Slot property added   :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:     248                                        |
+|   Total ECO changes reported:      32                                        |
 |------------------------------------------------------------------------------|

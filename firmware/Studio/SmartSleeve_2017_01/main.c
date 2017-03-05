@@ -31,10 +31,14 @@ int main(void)
 }
 
 void acquireSensorVoltage(void) {
+	
 	// read the value from the sensor:
-	sensorValue = ADC_Sample(sensorADC);
+	float value = 0;
+	for (int i=0; i < 10; i++)
+		value += ADC_Sample(sensorADC);  
+	
+	sensorValue = value/10.0;
 	sensorVoltage = sensorValue * VREF / 1023.0;
-	//sensorVoltage = 2.075085608; //33kOhms Test Voltage [49.86 MMHG]
 }
 
 
@@ -50,15 +54,26 @@ void calcPressure(void) {
 	acquireSensorVoltage();
 
 	/* compute the resistance from voltage */
-	resistance  = (1.625*sensorVoltage + 2.80311987)*12060.0;
-	resistance /= (8.40935961 - 2.965 * sensorVoltage);
+	/* Board 1 */
+	//resistance  = (2.4375*sensorVoltage + 4.201796)*-4020.0;
+	//resistance /= (1.4825 * sensorVoltage - 4.20179623);
+	
+	/* Board 2*/
+	//resistance  = (4.875*sensorVoltage + 8.4709784)*-4020.0;
+	//resistance /= (2.965 * sensorVoltage - 8.47097843);
+	
+	/* Rev 1*/
+	resistance  = (1.391*sensorVoltage + 3.479682641)*-8200.0;
+	resistance /= (1.147 * sensorVoltage - 3.479682641);
 
 	/* compute pressure from resistance (KOhms) */
 	sensorPressure =  P1 * pow(resistance / 1000.0, P2) + P3;
 
 	/* max of pressure */
-	if (sensorPressure >= 99) sensorPressure = 99;
-	if (sensorPressure <= 20) reset = 1;
+	#ifndef DEBUG
+		if (sensorPressure >= 99) sensorPressure = 99;
+		if (sensorPressure <= 20) reset = 1;
+	#endif
 }
 
 
@@ -91,6 +106,8 @@ void readSensors(void) {
 	// ------------------ check battery levels ------------------- //
 	if(timerinterupt == 1 || batteryVoltage < 4.36){
 		batterylevel = BATTERY_CRITICAL;
+		drawBatteryLow();
+		_delay_ms(10000); // wait 10 secs
 		disableDisplay();
 	}
 	else if(batteryVoltage < 4.76)
@@ -154,6 +171,7 @@ void initBoard(void) {
 	 Timer_Init();
 	 Timer_Enable();
 	 
+	 
 	/*
     CS: PORTD, Bit 5 --> PN(3,5)
     A0: PORTD, Bit 7 --> PN(3,7)
@@ -183,8 +201,7 @@ void draw(void) {
 	// graphic commands to redraw the complete screen should be placed here
 	
 	if(batterylevel == BATTERY_LOW){
-		u8g_SetFont(&u8g, u8g_font_unifont);
-		u8g_DrawStr(&u8g, 0, 25,  "LOW BATTERY");
+		drawBatteryLow();
 	}
 
 	if (reset == 1) {
@@ -209,6 +226,12 @@ void draw(void) {
 		u8g_DrawStr(&u8g, 90, 62,  "MMHG");
 		#endif
 	}
+}
+
+void drawBatteryLow(void) {
+	u8g_SetFont(&u8g, u8g_font_unifont);
+	u8g_DrawStr(&u8g, 90, 10,  "BATT");
+	clear_bit(PORTD, 3);   // sets the LED off
 }
 
 

@@ -4,14 +4,14 @@
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Mon Jan 30 16:32:09 2017                      )
+(    Date/Time        : Thu Feb 23 11:24:18 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 ------ Directives ------------
 
-Ripup etch:                  No
+Ripup etch:                  Yes
 Ripup delete first segment:  No
 Ripup retain bondwire:       No
 Ripup symbols:               Always
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro'
 Design Directory:            '.'
-Old design name:             'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
-New design name:             'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
+Old design name:             'C:/Users/Fred/Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd'
+New design name:             'SMARTSLEEVESYSTEM.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro\SMARTSLEEVESYSTEM.brd C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro\SMARTSLEEVESYSTEM.brd
+CmdLine: netrev.exe -y 1 -x -z -i C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro C:\Users\Fred\Documents\GitHub\SmartSleeve\schematic\allegro\SMARTSLEEVESYSTEM.brd C:\USERS\FRED\DOCUMENTS\GITHUB\SMARTSLEEVE\SCHEMATIC\allegro\SMARTSLEEVESYSTEM.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstchip.dat 
-   Finished reading C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstchip.dat (00:00:00.12)
+   Finished reading C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstchip.dat (00:00:00.04)
 Starting to read C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstxprt.dat 
    Finished reading C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/pstxnet.dat 
@@ -61,7 +61,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 30 16:32:09 2017
+netrev run on Feb 23 11:24:18 2017
    DESIGN NAME : 'SMARTSLEEVESYSTEM'
    PACKAGING ON Mar  2 2016 00:37:24
 
@@ -86,6 +86,6 @@ netrev run on Jan 30 16:32:09 2017
  No oversight detected
  No warning detected
 
-cpu time      0:01:57
+cpu time      0:00:40
 elapsed time  0:00:01
 

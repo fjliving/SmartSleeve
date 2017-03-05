@@ -1,9 +1,9 @@
-Fri Feb 03 10:15:05 2017				Page     1
+Sun Mar 05 16:38:58 2017				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Fri Feb 03 10:15:05 2017
+	Sun Mar 05 16:38:58 2017
 
 ------ Module Refresh Messages ------
 
@@ -19,17 +19,17 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Fri Feb 03 10:15:05 2017                      )
+(    Date/Time        : Sun Mar 05 16:38:58 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Feb 03 10:15:05 2017				Page     1
+Sun Mar 05 16:38:58 2017				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design  = 'C:/Users/Fred/Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd'
+Input design  = 'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
 Output design = ''
 
 Update mechanical symbols              = 'NO'
@@ -42,7 +42,7 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/Fred/AppData/Local/Temp/#Taaaaab09792.tmp'
+Symbol list file                       = 'C:/Users/Fred/AppData/Local/Temp/#Taaaabb16740.tmp'
 
 
 ------ Library Paths ------
@@ -66,11 +66,13 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
+'SOT95P280X112-6N'  symbol refreshed successfully.
 'SOP50P440X140-10N'  symbol refreshed successfully.
+'QFP80P1200X1200X120-45N'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 1 out 1
+Updated symbols: 3 out 3
     Design updated.
 

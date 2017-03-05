@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Fri Feb 03 10:49:13 2017                      )
+(    Date/Time        : Sun Mar 05 16:41:51 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -37,7 +37,7 @@
 
 
 
- Drill files being output to directory 'C:/Users/Fred/Documents/GitHub/SmartSleeve/schematic/allegro' ...
+ Drill files being output to directory 'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro' ...
 
 
 
@@ -46,13 +46,14 @@
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.  19.7000    0.0000/  0.0000      PLATED         26
-            2.  28.0000    0.0000/  0.0000      PLATED         11
+            1.  13.0000    0.0000/  0.0000      PLATED         28
+            2.  25.0000    0.0000/  0.0000      PLATED         11
             3.  38.0000    0.0000/  0.0000      PLATED          6
-            4.  42.0000    0.0000/  0.0000      PLATED         26
+            4.  42.0000    0.0000/  0.0000      PLATED         20
             5. 125.0000    0.0000/  0.0000      PLATED          4
+            6. 225.0000    0.0000/  0.0000      PLATED          2
 
-     ---- Total holes:                                         73
+     ---- Total holes:                                         71
 
-     ---- Total head travel:              4.37 feet (1.33 meters)
+     ---- Total head travel:              4.77 feet (1.45 meters)
 

@@ -4,17 +4,17 @@
 (                                                                     )
 (    Drawing          : SMARTSLEEVESYSTEM.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Mon Jan 30 22:04:51 2017                      )
+(    Date/Time        : Thu Feb 23 00:15:04 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Mon Jan 30 22:04:51 2017				Page     1
+Thu Feb 23 00:15:04 2017				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'C:/USERS/FRED/DOCUMENTS/GITHUB/SMARTSLEEVE/SCHEMATIC/allegro/SMARTSLEEVESYSTEM.brd'
+Input design  = 'C:/Users/Fred/Documents/GitHub/SmartSleeve/schematic/allegro/SMARTSLEEVESYSTEM.brd'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -40,17 +40,13 @@ PADPATH =  .
 
 ------ Pad Stack Refresh Messages ------
 
-'VIA'  pad stack refresh starting.
+'PAD667CIR227D'  pad stack refresh starting.
 
-     'VIA'  pad stack refreshed successfully.
+     'PAD667CIR227D'  pad stack refreshed successfully.
      
 'R540_180'  pad stack refresh starting.
 
      'R540_180'  pad stack refreshed successfully.
-     
-'PAD55SQ25D'  pad stack refresh starting.
-
-     'PAD55SQ25D'  pad stack refreshed successfully.
      
 'S700C50'  pad stack refresh starting.
 
@@ -76,22 +72,6 @@ PADPATH =  .
 
      'R115_35'  pad stack refreshed successfully.
      
-'PAD60CIR35'  pad stack refresh starting.
-
-     'PAD60CIR35'  pad stack refreshed successfully.
-     
-'HOLE120'  pad stack refresh starting.
-
-     'HOLE120'  pad stack refreshed successfully.
-     
-'C58H35T58'  pad stack refresh starting.
-
-     'C58H35T58'  pad stack refreshed successfully.
-     
-'S58H35T58'  pad stack refresh starting.
-
-     'S58H35T58'  pad stack refreshed successfully.
-     
 'C147H87T127_157'  pad stack refresh starting.
 
      'C147H87T127_157'  pad stack refreshed successfully.
@@ -107,5 +87,33 @@ PADPATH =  .
 'R107_145'  pad stack refresh starting.
 
      'R107_145'  pad stack refreshed successfully.
+     
+'HOLE120'  pad stack refresh starting.
+
+     'HOLE120'  pad stack refreshed successfully.
+     
+'S58H35T58'  pad stack refresh starting.
+
+     'S58H35T58'  pad stack refreshed successfully.
+     
+'C58H35T58'  pad stack refresh starting.
+
+     'C58H35T58'  pad stack refreshed successfully.
+     
+'PAD60CIR35'  pad stack refresh starting.
+
+     'PAD60CIR35'  pad stack refreshed successfully.
+     
+'PAD55SQ25D'  pad stack refresh starting.
+
+     'PAD55SQ25D'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'R122_30'  pad stack refresh starting.
+
+     'R122_30'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

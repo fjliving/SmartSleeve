@@ -44,8 +44,6 @@
 	unsigned int batteryValue      = 0;
 	float        resistance        = 0;
 	float        batteryVoltage    = 0;
-	
-	short        reset             = 1;
 	short        batterylevel      = BATTERY_NORMAL;
 	unsigned int initPressure      = 0;
     
@@ -67,8 +65,17 @@
 	int  roundPressure(void);
 	void readSensors(void);
 	void draw(void); 
+	void drawBatteryLow(void);
 	void disableDisplay(void);
 	void enableDisplay(void);
+	
+	#ifdef DEBUG
+		short reset = 0;
+	#else
+		short reset = 1;
+	#endif
+	
+	
 
 #endif
 

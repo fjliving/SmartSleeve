@@ -79,7 +79,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File" "allegro\SMARTSLEEVESYSTEM.brd")
-    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Remove Etch" "TRUE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
     ("Allegro Setup Backup Versions" "3")
@@ -87,9 +87,11 @@
     ("Allegro Setup Ignore Constraints" "FALSE")
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
-    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist Ignore Fixed Property" "TRUE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\Fred\Documents\GitHub\SmartSleeve\schematic\allegro\SMARTSLEEVESYSTEM.brd"))
   (Folder "Outputs"
     (File ".\smartsleevesystem.bom"
       (Type "Report"))
@@ -159,7 +161,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1190 52 349")
-        (Scroll "-10 64")
+        (Scroll "-10 320")
         (Zoom "80")
         (Occurrence "/"))
       (Path

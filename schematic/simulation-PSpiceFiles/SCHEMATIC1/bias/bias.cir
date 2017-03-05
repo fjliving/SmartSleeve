@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-bias"  [ c:\users\fred\documents\github\smartsleeve\schematic\simulation-pspicefiles\schematic1\bias.sim ] 
+** Profile: "SCHEMATIC1-bias"  [ C:\Users\Fred\Documents\GitHub\SmartSleeve\schematic\simulation-pspicefiles\schematic1\bias.sim ] 
 
 ** Creating circuit file "bias.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -11,7 +11,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.OP
+.TRAN  0 50m 0 
 .OPTIONS ADVCONV
 .AUTOCONVERGE ITL1=1000 ITL2=1000 ITL4=1000 RELTOL=0.05 ABSTOL=1.0E-6 VNTOL=.001 PIVTOL=1.0E-10 
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 

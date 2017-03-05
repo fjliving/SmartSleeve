@@ -31,6 +31,8 @@ void Timer_Enable(void)
 	
 	 timervalue    = 0;
 	 timerinterupt = 0;
+	 
+	 sei(); // enable interrupts
 }
 
 void Timer_Disable(void)
@@ -42,7 +44,6 @@ void Timer_Disable(void)
 ISR(TIMER1_COMPA_vect)
 {
     /* Do Something */
-    //BMS_SampleTransmit();
 	timervalue++;
 	if(timervalue > TIMEOUT){
 		timerinterupt = 1;

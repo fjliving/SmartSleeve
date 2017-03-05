@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-30-2017 at 16:32:08}
+{ Using PSTWRITER 17.2.0 d001Feb-23-2017 at 11:24:18}
 primitive 'C_ELECT_CAPCP2013X140N_10UF';
   pin
     '+':
@@ -261,7 +261,7 @@ primitive 'R_RESC2013X140N_0';
     VALUE='0';
   end_body;
 end_primitive;
-primitive 'R_RESC2013X140N_1.91K';
+primitive 'R_RESC2013X140N_976';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -273,10 +273,10 @@ primitive 'R_RESC2013X140N_1.91K';
   body
     PART_NAME='R';
     JEDEC_TYPE='RESC2013X140N';
-    VALUE='1.91k';
+    VALUE='976';
   end_body;
 end_primitive;
-primitive 'R_RESC2013X140N_4.02K';
+primitive 'R_RESC2013X140N_8.2K';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -288,10 +288,10 @@ primitive 'R_RESC2013X140N_4.02K';
   body
     PART_NAME='R';
     JEDEC_TYPE='RESC2013X140N';
-    VALUE='4.02k';
+    VALUE='8.2k';
   end_body;
 end_primitive;
-primitive 'R_RESC2013X140N_127K';
+primitive 'R_RESC2013X140N_113K';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -303,7 +303,7 @@ primitive 'R_RESC2013X140N_127K';
   body
     PART_NAME='R';
     JEDEC_TYPE='RESC2013X140N';
-    VALUE='127k';
+    VALUE='113k';
   end_body;
 end_primitive;
 primitive 'SW PUSHBUTTON_DIP500P550X533-4N';
@@ -580,6 +580,33 @@ primitive 'ST7565_1_ST7565_ST7565';
     PART_NAME='ST7565_1';
     JEDEC_TYPE='ST7565';
     VALUE='ST7565';
+  end_body;
+end_primitive;
+primitive 'LD1086_5_SOT95P280X112-6N_LT179';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'IN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'GND1':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LD1086_5';
+    JEDEC_TYPE='SOT95P280X112-6N';
+    VALUE='LT1790-3.0';
   end_body;
 end_primitive;
 primitive 'ZTA_CRYSTAL1190X300N_ZTA_16MHZ';
